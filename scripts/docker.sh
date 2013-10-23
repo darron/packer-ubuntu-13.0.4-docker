@@ -9,4 +9,4 @@ sudo sh -c "echo deb http://get.docker.io/ubuntu docker main > /etc/apt/sources.
 sudo apt-get update
 
 # Install
-sudo apt-get install lxc-docker
+sudo apt-get -y install lxc-docker
